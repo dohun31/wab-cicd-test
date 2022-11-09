@@ -4,6 +4,7 @@ module.exports = class App {
   }
   
   sayHello() {
-    return 'hello';
+    const message = "hello";
+    return message;
   }
 }
